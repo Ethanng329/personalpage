@@ -7,12 +7,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hello World</title>
   <link rel="stylesheet" type="text/css" href="./global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <nav>
-    <div class="nav_mywork">My work</div>
-    <div class="nav_background">My Background</div>
+    <div class="nav_container">
+      <div class="nav_mywork">
+        <a href="#worksection">
+          <b>My Work</b>
+        </a>
+      </div>
+      <div class="nav_background">
+        <a href="#mybackground">
+          <b>My Background</b>
+        </a>
+      </div>
+    </div>
   </nav>
   <div class "main_container">
     <div class="profile_container">
@@ -20,14 +31,93 @@
       <h1>My bio</h1>
     </div>
     <div class="profilepic_container">
-      <img class="profilepic" src="IMG_2373.png" alt="profile photo">
+      <h1>Hello my name is Ethan</h1>
+      <img class="profilepic" src="./images/IMG_2373.png" alt="profile photo">
+
+      <h1>Fullstack JavaScript Developer</h1>
+      <ul>
+        <li>React, Redux</li>
+        <li>Node</li>
+        <li>PostgreSQL</li>
+        <li>CSS/HTML with responsive design</li>
+        <li>Unit testing - Jest/Enzyme</li>
+      </ul>
     </div>
-    <h1>Hello my name is Ethan</h1>
-    <h1>Hello my name is Ethan</h1>
-    <h1>Hello my name is Ethan</h1>
-    <h1>Hello my name is Ethan</h1>
+
+    <div class="mywork">
+
+      <div class="content_div">
+        <h1 id="worksection">Constructor Labs</h1>
+        <img class="logopic" src="./images/constructor-labs-badge.png" alt="Contructor Labs Logo">
+      </div>
+      <div class="content_details">
+        <p>JavaScript BootCamp - 2018</p>
+        <ul class="list_style">Topics covered:
+          <li>JavaScript</li>
+          <li>React, Redux</li>
+          <li>Node</li>
+          <li>PostgreSQL</li>
+          <li>Unit Testing</li>
+          <li>Middleware and Passport</li>
+          <li>Authenticatoin</li>
+        </ul>
+      </div>
+
+    </div>
+    <h1>
+      <u>Previous Work</u>
+    </h1>
+    <div class="work_container">
 
 
+      <div class="content_div">
+        <img class="logopic" src="./images/Royal Free.png" alt="RFH">
+      </div>
+      <div class="content_details">
+        <p>Patient Safety Simulation Centre Project Manager( May 2014- May 2018)
+        </p>
+        <br>
+        <p>Clinical Governance Assistant( Sept 2013 – May 2014)
+        </p>
+      </div>
+    </div>
+    <div>
+      <h1 id="mybackground">
+        <u>My background</u>
+      </h1>
+
+      <div class="work_container">
+        <div class="content_div">
+          <img class="logopic" src="./images/qm.gif" alt="QM">
+        </div>
+        <div class="content_details">
+          <P>MSc Mental Health Studies: Psychological Therapies</P>
+        </div>
+      </div>
+
+      <div class="work_container">
+        <div class="content_div">
+          <img class="logopic" src="./images/heythrop.png" alt="Heythrop">
+        </div>
+        <div class="content_details">
+          <P>BA(Hons) Philosophy and Psychology</P>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+  <div class="footer">
+    Contact me /projects can be seen (GitHub) at:
+    <a href="mailto:ethanng329@gmail.com" class="fa fa-envelope"></a>
+    <a href="https://twitter.com/ethanng329" class="fa fa-twitter"></a>
+    <a href="https://github.com/ethanng329" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/ethan-ng-654b94164/" class="fa fa-linkedin"></a>
   </div>
 </body>
 
